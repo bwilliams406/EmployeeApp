@@ -11,7 +11,7 @@ import com.williams.employee.model.Employee;
 public class EmployeeDaoImpl implements EmployeeDao {
 
 	public List<Employee> getAllEmployees() {
-		List<Employee> employees = new ArrayList<Employee>();
+		List<Employee> employees = new ArrayList<>();
 
 		Employee emp1 = new Employee();
 		emp1.setId(1);
