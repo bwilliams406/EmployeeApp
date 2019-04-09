@@ -5,5 +5,5 @@ import java.util.List;
 import com.williams.employee.model.Employee;
 
 public interface EmployeeService {
-	  public List<Employee> getAllEmployees();
+	 List<Employee> getAllEmployees();
 }
