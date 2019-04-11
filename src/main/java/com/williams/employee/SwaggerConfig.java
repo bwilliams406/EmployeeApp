@@ -1,6 +1,5 @@
 package com.williams.employee;
 
-
 import static springfox.documentation.builders.PathSelectors.regex;
 
 import org.springframework.context.annotation.Bean;
@@ -21,8 +20,5 @@ public class SwaggerConfig {
 				.apis(RequestHandlerSelectors.basePackage("com.williams.employee.controller")).paths(regex("/.*"))
 				.build();
 	}
-
-
-
 
 }
