@@ -1,7 +1,5 @@
 package com.williams.employee.model;
 
-import java.util.Objects;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -87,7 +85,7 @@ public class Employee {
 
 	@Override
 	public String toString() {
-		final StringBuilder sb = new StringBuilder("Country{");
+		final StringBuilder sb = new StringBuilder("Employee{");
 		sb.append("id=").append(id);
 		sb.append(", firstName='").append(firstName).append('\'');
 		sb.append(", lastName=").append(lastName);
