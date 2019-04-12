@@ -7,8 +7,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-
-
 @Entity
 @Table(name = "employee")
 public class Employee {
@@ -23,13 +21,6 @@ public class Employee {
 
 	@Column(name = "last_name")
 	public String lastName;
-	
-	
-	
-	
-	
-	
-	
 
 	public Long getId() {
 		return id;
@@ -54,8 +45,5 @@ public class Employee {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-
-
-
 
 }
