@@ -42,7 +42,7 @@ public class serviceTest {
 
 		List<Employee> employees = employeeService.findAll();
 
-		assertEquals(employees.size(), 1);
+		assertEquals(1,employees.size());
 		verify(employeeDao, times(1)).findAll();
 	}
 
